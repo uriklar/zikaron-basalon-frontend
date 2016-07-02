@@ -1,0 +1,21 @@
+@import 'components/current-user/auth-container';
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Open Sans Hebrew', sans-serif;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#app {
+  height: 100%;
+}
